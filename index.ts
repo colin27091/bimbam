@@ -1,6 +1,6 @@
 import * as fs from 'fs';
-import Pelouse from './Pelouse';
-import Tondeuse from './Tondeuse';
+import Pelouse from './src/Pelouse';
+import Tondeuse from './src/Tondeuse';
 
 
 const filename = process.argv[2] || 'instructions.txt';
